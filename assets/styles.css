@@ -1,0 +1,31 @@
+/* Global App Background */
+.stApp {
+    background-color: #0f172a;
+    color: #f1f5f9;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background-color: #1e293b;
+}
+
+/* KPI Card Style */
+div[data-testid="metric-container"] {
+    background-color: #1e293b;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.4);
+}
+
+/* Buttons */
+.stButton>button {
+    border-radius: 8px;
+    background-color: #2563eb;
+    color: white;
+    font-weight: 600;
+}
+
+/* Tables */
+[data-testid="stDataFrame"] {
+    background-color: #1e293b;
+}
